@@ -63,6 +63,13 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Archer.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Orc.cs" />
+    <Compile Include="Skeleton.cs" />
+    <Compile Include="Mage.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Warrior.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OOP2_1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="500" Width="1040">
     <Grid>
-        
+        <Button x:Name="start" Content="Начать игру!" Click="start_button_Click" Height="40" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FFDDE8DB" BorderThickness="2,2,2,2" >
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFD4C4C4" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+        <Grid x:Name="game_panel" Height="480" Margin="5,5,5,5"/>
+       
+
     </Grid>
+
 </Window>
+
